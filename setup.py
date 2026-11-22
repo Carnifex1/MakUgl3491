@@ -25,7 +25,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'timer_node = MakUgl.timer_node:main',
+            'even_number_publisher = MakUgl.even_number_publisher:main',
+            'overflow_listener = MakUgl.overflow_listener:main',
         ],
     },
 )

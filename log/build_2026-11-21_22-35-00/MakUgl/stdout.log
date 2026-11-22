@@ -1,0 +1,27 @@
+running egg_info
+writing build/MakUgl/MakUgl.egg-info/PKG-INFO
+writing dependency_links to build/MakUgl/MakUgl.egg-info/dependency_links.txt
+writing entry points to build/MakUgl/MakUgl.egg-info/entry_points.txt
+writing requirements to build/MakUgl/MakUgl.egg-info/requires.txt
+writing top-level names to build/MakUgl/MakUgl.egg-info/top_level.txt
+reading manifest file 'build/MakUgl/MakUgl.egg-info/SOURCES.txt'
+writing manifest file 'build/MakUgl/MakUgl.egg-info/SOURCES.txt'
+running build
+running build_py
+copying MakUgl/talker.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+copying MakUgl/__init__.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+copying MakUgl/timer_node.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+copying MakUgl/py.typed -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+running install
+running install_lib
+copying /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl/talker.py -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl
+byte-compiling /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl/talker.py to talker.cpython-314.pyc
+running install_data
+copying resource/MakUgl -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/ament_index/resource_index/packages
+copying package.xml -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl
+running install_egg_info
+removing '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl-0.0.0-py3.14.egg-info' (and everything under it)
+Copying build/MakUgl/MakUgl.egg-info to /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl-0.0.0-py3.14.egg-info
+running install_scripts
+Installing talker script to /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/MakUgl
+writing list of installed files to '/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log'

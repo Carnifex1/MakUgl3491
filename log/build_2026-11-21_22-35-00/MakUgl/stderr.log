@@ -1,0 +1,5 @@
+  File "/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl/talker.py", line 26
+    except KeyboardInterrupt:
+    ^^^^^^
+SyntaxError: invalid syntax
+

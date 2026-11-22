@@ -1,0 +1,90 @@
+[-1795300498255803392.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'MakUgl']
+[-1795300498255803392.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['MakUgl'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7266cfc18550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7266cfd870e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7266cfd870e0>>, mixin_verb=('build',))
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1795300498255803392.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carnifex/ros2_ws/src/MakUgl'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'MakUgl'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1795300498255803392.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/carnifex/ros2_ws/install
+[-1795300498255803392.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/lyrical
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_args' from command line to 'None'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_target' from command line to 'None'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_clean_cache' from command line to 'False'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_clean_first' from command line to 'False'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'cmake_force_configure' from command line to 'False'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'ament_cmake_args' from command line to 'None'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'catkin_cmake_args' from command line to 'None'
+[-1795300498255803392.000s] Level 5:colcon.colcon_core.verb:set package 'MakUgl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.verb:Building package 'MakUgl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl', 'merge_install': False, 'path': '/home/carnifex/ros2_ws/src/MakUgl', 'symlink_install': False, 'test_result_base': None}
+[-1795300498255803392.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1795300498255803392.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1795300498255803392.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/carnifex/ros2_ws/src/MakUgl' with build type 'ament_python'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('MakUgl', 'ament_prefix_path')
+[-1795300498255803392.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/ament_prefix_path.ps1'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/ament_prefix_path.dsv'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/ament_prefix_path.sh'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1795300498255803392.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/carnifex/ros2_ws/src/MakUgl'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/carnifex/ros2_ws/src/MakUgl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/MakUgl build --build-base /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build install --record /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log --single-version-externally-managed install_data
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/carnifex/ros2_ws/src/MakUgl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/MakUgl build --build-base /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build install --record /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log --single-version-externally-managed install_data
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl' for CMake module files
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl' for CMake config files
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/bin'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/pkgconfig/MakUgl.pc'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('MakUgl', 'pythonpath')
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/pythonpath.ps1'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/pythonpath.dsv'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/hook/pythonpath.sh'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:checking '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/bin'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(MakUgl)
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/package.ps1'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/package.dsv'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/package.sh'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/package.bash'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl/package.zsh'
+[-1795300498255803392.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/colcon-core/packages/MakUgl)
+[-1795300498255803392.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1795300498255803392.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1795300498255803392.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1795300498255803392.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1795300498255803392.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1795300498255803392.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1795300498255803392.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carnifex/ros2_ws/src/MakUgl/install/local_setup.ps1'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carnifex/ros2_ws/src/MakUgl/install/_local_setup_util_ps1.py'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carnifex/ros2_ws/src/MakUgl/install/setup.ps1'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carnifex/ros2_ws/src/MakUgl/install/local_setup.sh'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/carnifex/ros2_ws/src/MakUgl/install/_local_setup_util_sh.py'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carnifex/ros2_ws/src/MakUgl/install/setup.sh'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carnifex/ros2_ws/src/MakUgl/install/local_setup.bash'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carnifex/ros2_ws/src/MakUgl/install/setup.bash'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/carnifex/ros2_ws/src/MakUgl/install/local_setup.zsh'
+[-1795300498255803392.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/carnifex/ros2_ws/src/MakUgl/install/setup.zsh'

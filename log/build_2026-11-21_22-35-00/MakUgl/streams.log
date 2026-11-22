@@ -1,0 +1,34 @@
+[1.133s] Invoking command in '/home/carnifex/ros2_ws/src/MakUgl': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/MakUgl build --build-base /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build install --record /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log --single-version-externally-managed install_data
+[1.409s] running egg_info
+[1.415s] writing build/MakUgl/MakUgl.egg-info/PKG-INFO
+[1.437s] writing dependency_links to build/MakUgl/MakUgl.egg-info/dependency_links.txt
+[1.438s] writing entry points to build/MakUgl/MakUgl.egg-info/entry_points.txt
+[1.439s] writing requirements to build/MakUgl/MakUgl.egg-info/requires.txt
+[1.440s] writing top-level names to build/MakUgl/MakUgl.egg-info/top_level.txt
+[1.483s] reading manifest file 'build/MakUgl/MakUgl.egg-info/SOURCES.txt'
+[1.485s] writing manifest file 'build/MakUgl/MakUgl.egg-info/SOURCES.txt'
+[1.486s] running build
+[1.486s] running build_py
+[1.488s] copying MakUgl/talker.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+[1.488s] copying MakUgl/__init__.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+[1.489s] copying MakUgl/timer_node.py -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+[1.490s] copying MakUgl/py.typed -> /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl
+[1.490s] running install
+[1.494s] running install_lib
+[1.513s] copying /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build/lib/MakUgl/talker.py -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl
+[1.514s] byte-compiling /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl/talker.py to talker.cpython-314.pyc
+[1.520s]   File "/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl/talker.py", line 26
+[1.520s]     except KeyboardInterrupt:
+[1.520s]     ^^^^^^
+[1.520s] SyntaxError: invalid syntax
+[1.520s] 
+[1.520s] running install_data
+[1.523s] copying resource/MakUgl -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/ament_index/resource_index/packages
+[1.523s] copying package.xml -> /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/share/MakUgl
+[1.523s] running install_egg_info
+[1.546s] removing '/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl-0.0.0-py3.14.egg-info' (and everything under it)
+[1.546s] Copying build/MakUgl/MakUgl.egg-info to /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages/MakUgl-0.0.0-py3.14.egg-info
+[1.547s] running install_scripts
+[1.637s] Installing talker script to /home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/MakUgl
+[1.639s] writing list of installed files to '/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log'
+[1.673s] Invoked command in '/home/carnifex/ros2_ws/src/MakUgl' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/carnifex/ros2_ws/src/MakUgl/install/MakUgl/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/MakUgl build --build-base /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/build install --record /home/carnifex/ros2_ws/src/MakUgl/build/MakUgl/install.log --single-version-externally-managed install_data
