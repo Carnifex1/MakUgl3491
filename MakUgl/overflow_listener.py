@@ -6,14 +6,17 @@ class OverflowListener(Node):
     def __init__(self):
         super().__init__('overflow_listener')
 
+        self.declare_parameter('overflow_topic', '/overflow')
+        overflow_topic = self.get_parameter('overflow_topic').value
+
         self.subscription = self.create_subscription(
             Int32,
-            'overflow',
+            overflow_topic,
             self.overflow_callback,
             10
         )
 
-        self.get_logger().info('Overflow listener has been started')
+        self.get_logger().info(f'Overflow listener has been started: {overflow_topic}')
     
     def overflow_callback(self, msg):
         self.get_logger().warning(f'!!!OVERFLOW!!! The message has been received: {msg.data}')
